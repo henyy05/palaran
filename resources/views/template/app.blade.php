@@ -55,6 +55,7 @@
                         <li class="cat-1"><a href="/">Home</a></li>
                         <li class="cat-2"><a href="/profile">Profile</a></li>
                         <li class="cat-3"><a href="/peta">Peta</a></li>
+                        
                     </ul>
                     <!-- /nav -->
 

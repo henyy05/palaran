@@ -153,9 +153,10 @@
                     },
                     onEachFeature: function(feature, featureLayer){
                         featureLayer.bindPopup(
-                            "kelurahan1: "+feature.properties.kelurahan1+
-                            "kelurahan2: "+feature.properties.kelurahan2 +
-                            "luas: "+feature.properties.luas 
+                            "kelurahan1: "+feature.properties.kelurahan1+("<br>")+
+                            "kelurahan2: "+feature.properties.kelurahan2+("<br>")+
+                            "luas: "+feature.properties.luas+("<br>")+
+                            "kel_tani: "+feature.properties.kel_tani
                         );
                     } 
                 });
